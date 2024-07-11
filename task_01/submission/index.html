@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Element</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        select {
+            text-transform: capitalize;
+            display: block;
+            margin: 22vh auto;
+            border: 2px solid;
+            border-radius: 20px;
+            padding: 1rem 2rem;
+            font-size: 1.25rem;
+        }
+    </style>
+</head>
+
+<body>
+    <select name="dropdown" id="">
+        <optgroup label="group 1">
+            <option value="">option 1.1</option>
+        </optgroup>
+
+        <optgroup label="group 2">
+            <option value="">option 2.1</option>
+            <option value="">option 2.2</option>
+        </optgroup>
+
+        <optgroup label="group 3" disabled>
+            <option value="">option 3.1</option>
+            <option value="">option 3.2</option>
+            <option value="">option 3.3</option>
+        </optgroup>
+    </select>
+</body>
+
+</html>
