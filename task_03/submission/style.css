@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h2,
+h3 {
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+p {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+img {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+.container {
+  width: min(1100px, 90%);
+  margin: 0 auto;
+}
+
+.cards {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: calc(33% - 2rem);
+}
+
+.card:not(:first-child) {
+  margin-left: 2rem;
+}
+
+.card .img-container {
+  aspect-ratio: 8/7;
+}
